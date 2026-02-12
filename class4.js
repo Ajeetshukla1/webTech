@@ -62,10 +62,10 @@ bakeCake().then((msg)=>{
 function checkP(petrol){
     console.log("1.check for patrol");
     
-    return new Promise(resolve,reject)=>{
-        setTimeout()
+    return new Promise((resolve,reject)=>{
+        setTimeout();
 
-    }
+    });
 }
 petrol(200).then((msg)=>{
     console.log("2.enough fuel");
